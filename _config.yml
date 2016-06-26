@@ -10,7 +10,7 @@ title: Jessica Jiang
 email: jessicajiang10@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec id feugiat mauris. Maecenas aliquet lectus nec dui ornare, rutrum mollis elit pulvinar. Nunc et aliquet quam. Aliquam consectetur.
-baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /leaf/:title
 url: "http://jessicasjiang.github.io" # the base hostname & protocol for your site
 twitter_username: jessicasjiang
 github_username:  jessicasjiang
