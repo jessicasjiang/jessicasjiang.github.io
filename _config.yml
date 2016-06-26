@@ -8,8 +8,6 @@
 # Site settings
 title: Jessica Jiang
 email: jessicajiang10@gmail.com
-paginate: 7
-paginate_path: /page/:num
 description: > # this means to ignore newlines until "baseurl:"
   Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec id feugiat mauris. Maecenas aliquet lectus nec dui ornare, rutrum mollis elit pulvinar. Nunc et aliquet quam. Aliquam consectetur.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -19,6 +17,3 @@ github_username:  jessicasjiang
 
 # Build settings
 markdown: kramdown
-
-# Gems
-gems: jekyll-paginate

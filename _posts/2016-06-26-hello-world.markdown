@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Hello world!"
-date: YYYY-MM-DD
 tags: blogkeeping
 ---
 Some things to do:
