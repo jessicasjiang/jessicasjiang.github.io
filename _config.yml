@@ -19,3 +19,6 @@ github_username:  jessicasjiang
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems: jekyll-paginate
