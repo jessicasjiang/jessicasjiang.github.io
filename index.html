@@ -1,23 +1,87 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="home">
+{% if paginator.page != 1 %}
+  {% include pagination.html %}
 
+{% else %}
+
+<script src="/assets/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 30,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+
+<div>
+<header>
+<h1><a href="/">Jessica Jiang</a></h1>
+
+<nav>
+  <a href="/about">About</a>
+  <a href="/#leaf">Blog</a>
+  <a href="/work">Work</a>
+</nav>
+
+</header>
+</div>
+
+<div id="landing">
+
+<div id="column1">
+<img src="/assets/face.png" height="400px" width="auto">
+</div>
+
+<div id="column2">
+<p>I am a small human, a sometimes writer and artist, and an avid consumer of mango sticky rice. I study and think about race, empire, and diaspora. Some of these thoughts are actualized below in the form of sentences, essays, etc.</p>
+<p>(Less cute but more employable depiction of my face forthcoming.)</p>
+
+</div>
+</div>
+
+<div id="leaf">
+</div>
+
+<div class="wrapper">
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · {{ post.tags | join: ', ' }}</div>
+        <div class="post-content">{{ post.content }}</div>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="pagination">
+<span class="page_number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+<br>
+<p>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">→</a>
+  {% else %}
+    <span class="next">… that's the end!</span>
+  {% endif %}
+</p>
+</div>
 
 </div>
+
+{% endif %}
