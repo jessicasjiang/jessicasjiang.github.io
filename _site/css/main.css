@@ -72,7 +72,8 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #111; }
   a:hover {
     color: #111;
     text-decoration: underline; }
