@@ -6,8 +6,8 @@
 </description>
     <link>http://jessicasjiang.github.io/</link>
     <atom:link href="http://jessicasjiang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jul 2016 19:32:49 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2016 19:32:49 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Jul 2016 12:23:20 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2016 12:23:20 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -39,7 +39,7 @@
   &lt;li&gt;Format images on Work page&lt;/li&gt;
   &lt;li&gt;Populate About page with real stuff&lt;/li&gt;
   &lt;li&gt;Better color scheme&lt;/li&gt;
-  &lt;li&gt;Reformat code display for footnotes (maybe?)&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Reformat code display for footnotes (maybe?)&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Tomorrow, if I end up having any time to work on this at all, I’m going to try to fix the post layout first and foremost, which may take a while. Then, figure out the footer stuff (which shouldn’t take &lt;em&gt;ages&lt;/em&gt;) before I try to tackle pagination, which will be thorny.&lt;/p&gt;
@@ -60,7 +60,7 @@
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum congue tempus. Proin lorem sem, tincidunt id malesuada ac, mollis pulvinar neque. Duis quis tempor enim. Etiam id posuere sapien. Etiam mollis sollicitudin ante ac fermentum. Vivamus porttitor consectetur elementum. Vivamus at ornare lacus, ut feugiat ligula. Maecenas tristique viverra rhoncus. Maecenas semper arcu quis purus tempor, et congue ipsum ullamcorper. Pellentesque convallis finibus nulla nec sagittis. Donec non orci ultricies, sodales orci nec, molestie nunc. Nullam quis elit mattis, porttitor tellus ac, eleifend eros. Fusce diam ante, interdum et erat et, mattis aliquam tortor. Nullam malesuada eu ante vitae molestie. Sed id diam blandit, finibus enim sed, luctus dui. Sed non ultrices libero.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Nunc libero mi, iaculis non ultricies ac, ullamcorper tempus arcu. Proin ut metus non nisi faucibus euismod. Praesent sollicitudin neque risus, ac venenatis enim tincidunt vitae. Sed sit amet nisl lorem. Pellentesque tempus tempor consequat. Nullam et molestie massa. Integer rhoncus felis id urna vestibulum, in elementum tellus accumsan. Proin tempor lobortis porta. Aliquam imperdiet suscipit ante eu posuere. Nulla ultricies lacinia imperdiet. Nulla neque tellus, laoreet vitae lorem vel, sollicitudin placerat metus. Praesent euismod eros sit amet suscipit commodo.&lt;/p&gt;
+  &lt;p&gt;Nunc libero mi, iaculis non ultricies ac, ullamcorper tempus arcu. Proin ut metus non nisi faucibus euismod. Praesent sollicitudin neque risus, ac venenatis enim tincidunt vitae. Sed sit amet nisl lorem. Pellentesque tempus tempor consequat. Nullam et molestie massa. Integer rhoncus felis id urna vestibulum, in elementum tellus accumsan. Proin tempor lobortis porta. Aliquam imperdiet suscipit ante eu posuere. Nulla ultricies lacinia imperdiet. Nulla neque tellus, laoreet vitae lorem vel, sollicitudin placerat metus. Praesent euismod eros sit amet suscipit commodo.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Duis rutrum tincidunt leo, ut gravida odio volutpat et. Praesent ultrices fermentum ultricies. Donec a maximus mauris, non rhoncus diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed porttitor sapien. Nullam accumsan imperdiet nisi, in pharetra risus elementum sed. Morbi non mattis enim. Sed in orci malesuada, tincidunt sapien ut, fermentum tortor. Phasellus finibus accumsan purus, vel sollicitudin nulla efficitur a. Nam sodales nunc eu magna scelerisque, at vehicula est tincidunt. Fusce pellentesque venenatis enim. Pellentesque lacus elit, facilisis in purus vel, suscipit pulvinar purus. Quisque vel lobortis neque, quis consequat ligula.&lt;/p&gt;
@@ -69,10 +69,21 @@
   &lt;p&gt;Frisch weht der Wind &lt;br /&gt;
 Der Heimat zu, &lt;br /&gt;
 Mein Irisch Kind, &lt;br /&gt;
-Wo weilest du?&lt;/p&gt;
+Wo weilest du?&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Suspendisse potenti. Sed eget pharetra turpis. Suspendisse sed lacus sed quam malesuada consequat et in lacus. Curabitur eget dictum leo. Nulla facilisi. Curabitur ornare nibh porta quam bibendum scelerisque. Mauris mattis, lacus eget porta eleifend, tellus nunc consequat neque, vel accumsan leo tellus vitae lacus. Donec feugiat odio ut enim condimentum sollicitudin. Nunc lorem urna, consectetur a risus id, posuere pretium nibh. Mauris ornare lacinia leo, ac efficitur sem vestibulum eleifend. Donec sollicitudin eu erat eget mattis.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Test, &lt;a href=&quot;http://academia.edu&quot;&gt;Link&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;More sources &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Wed, 29 Jun 2016 00:00:00 -0700</pubDate>
         <link>http://jessicasjiang.github.io/leaf/just-some-more</link>
