@@ -295,6 +295,10 @@ header a:hover {
 .post-content {
     margin-bottom: $spacing-unit;
 
+    a {
+        color: #7EB77F;
+    }
+
     h1 {
         font-size: 20px;
         font-family: 'Work Sans', sans-serif;
